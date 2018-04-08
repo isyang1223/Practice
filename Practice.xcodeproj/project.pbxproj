@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F2407382064493B0056B5F4 /* CustomSwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2407372064493B0056B5F4 /* CustomSwipeViewController.swift */; };
+		6F24073A206451E80056B5F4 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F240739206451E80056B5F4 /* CustomTableViewCell.swift */; };
 		6F959D8E2064279C00C7B971 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F959D8D2064279C00C7B971 /* AppDelegate.swift */; };
 		6F959D902064279C00C7B971 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F959D8F2064279C00C7B971 /* ViewController.swift */; };
 		6F959D932064279C00C7B971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F959D912064279C00C7B971 /* Main.storyboard */; };
@@ -15,6 +17,9 @@
 		6F959D9B2064279C00C7B971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F959D992064279C00C7B971 /* LaunchScreen.storyboard */; };
 		6F959DA62064279C00C7B971 /* PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F959DA52064279C00C7B971 /* PracticeTests.swift */; };
 		6F959DB12064279C00C7B971 /* PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F959DB02064279C00C7B971 /* PracticeUITests.swift */; };
+		6F959DBF206431EE00C7B971 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F959DBE206431EE00C7B971 /* DatePickerViewController.swift */; };
+		6FAA59D9206486560073824E /* RefinedFetchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAA59D8206486560073824E /* RefinedFetchViewController.swift */; };
+		6FAA59DB2064980F0073824E /* SectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAA59DA2064980F0073824E /* SectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F2407372064493B0056B5F4 /* CustomSwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwipeViewController.swift; sourceTree = "<group>"; };
+		6F240739206451E80056B5F4 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		6F959D8A2064279C00C7B971 /* Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F959D8D2064279C00C7B971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F959D8F2064279C00C7B971 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		6F959DAC2064279C00C7B971 /* PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F959DB02064279C00C7B971 /* PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeUITests.swift; sourceTree = "<group>"; };
 		6F959DB22064279C00C7B971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F959DBE206431EE00C7B971 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		6FAA59D8206486560073824E /* RefinedFetchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefinedFetchViewController.swift; sourceTree = "<group>"; };
+		6FAA59DA2064980F0073824E /* SectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +111,12 @@
 			children = (
 				6F959D8D2064279C00C7B971 /* AppDelegate.swift */,
 				6F959D8F2064279C00C7B971 /* ViewController.swift */,
+				6FAA59DA2064980F0073824E /* SectionViewController.swift */,
+				6F2407372064493B0056B5F4 /* CustomSwipeViewController.swift */,
 				6F959D912064279C00C7B971 /* Main.storyboard */,
+				6FAA59D8206486560073824E /* RefinedFetchViewController.swift */,
+				6F240739206451E80056B5F4 /* CustomTableViewCell.swift */,
+				6F959DBE206431EE00C7B971 /* DatePickerViewController.swift */,
 				6F959D972064279C00C7B971 /* Assets.xcassets */,
 				6F959D992064279C00C7B971 /* LaunchScreen.storyboard */,
 				6F959D9C2064279C00C7B971 /* Info.plist */,
@@ -262,7 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FAA59D9206486560073824E /* RefinedFetchViewController.swift in Sources */,
+				6F24073A206451E80056B5F4 /* CustomTableViewCell.swift in Sources */,
+				6FAA59DB2064980F0073824E /* SectionViewController.swift in Sources */,
+				6F959DBF206431EE00C7B971 /* DatePickerViewController.swift in Sources */,
 				6F959D902064279C00C7B971 /* ViewController.swift in Sources */,
+				6F2407382064493B0056B5F4 /* CustomSwipeViewController.swift in Sources */,
 				6F959D8E2064279C00C7B971 /* AppDelegate.swift in Sources */,
 				6F959D962064279C00C7B971 /* Practice.xcdatamodeld in Sources */,
 			);
